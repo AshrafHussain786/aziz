@@ -98,3 +98,7 @@ input[type=submit]:hover {
 .container email {
   width: 200px;
 }
+
+.heading {
+  text-align: center;
+}

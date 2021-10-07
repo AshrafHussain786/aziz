@@ -6,10 +6,10 @@ export default function Contact() {
     <>
         <div> <Nav /> </div>        
         <br />
-        <h1>Contact Form</h1>
+        <h1 className="heading">Contact Form</h1>
 
         <div class="container">
-        <form action="/">
+        <form action="#">
             <label htmlFor="name">Name</label>
             <input type="text" id="fname" name="name" placeholder="Your name.." />
 
