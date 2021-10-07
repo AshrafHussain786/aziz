@@ -19,7 +19,7 @@ export default function Work() {
           including versions of Lorem Ipsum.        
       </div>
       <div className="img">
-        <img src={Lath} width={800} height={580} alt="Lath" />
+        <img src={Lath} width={1000} height={800} alt="Lath" />
       </div>
     </div>
     </>

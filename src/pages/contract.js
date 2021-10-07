@@ -8,7 +8,7 @@ export default function Contract() {
     <div> <Nav /> </div>
     <div className="outer">      
       <div className="img">
-        <img src={Lath} width={800} height={580} alt="Lath" />
+        <img src={Lath} width={1000} height={800} alt="Lath" />
       </div>
       <div className="txt">        
           Lorem Ipsum is simply dummy text of the printing and typesetting

@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 5px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -29,7 +29,9 @@ body {
   }
 
 .outer .img {
-    flex-grow: 1;    
+    flex-grow: 1;  
+    max-width: 60%;  
+    padding: 20px;   
   }
   
 .txt {
