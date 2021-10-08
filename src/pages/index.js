@@ -1,13 +1,13 @@
 import React from "react";
 import Nav from "../components/nav";
 import Home from "../components/home";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Index() {
   return <>    
     <div> <Nav /> </div>
     
-    <div className="container-fluid"> <Home /> </div>
+    <div className="container-sm|md|lg|xl"> <Home /> </div>
   
   </>
 }

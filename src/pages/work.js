@@ -6,7 +6,7 @@ export default function Work() {
   return (
     <>
     <div> <Nav /> </div>
-    <div className="container-fluid">
+    <div className="container-sm|md|lg|xl">
     <div className="outer">      
       <div className="txt">        
           Lorem Ipsum is simply dummy text of the printing and typesetting
