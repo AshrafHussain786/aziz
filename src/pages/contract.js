@@ -4,8 +4,9 @@ import Lath from "../images/Lath.jpeg"
 
 export default function Contract() {
   return (
-    <div>
+    <>
     <div> <Nav /> </div>
+    <div className="container"></div>
     <div className="outer">      
       <div className="img">
         <img src={Lath} width={1000} height={800} alt="Lath" />
@@ -22,6 +23,6 @@ export default function Contract() {
           including versions of Lorem Ipsum.        
       </div>      
     </div>
-    </div>
+    </>
   )
 }

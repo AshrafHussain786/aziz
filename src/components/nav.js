@@ -4,6 +4,7 @@ import { nav, leftNav, rightNav, navLinkItem } from "./styles/nav.module.css"
 
 const Nav = () => {
     return (
+        <div>
 <nav className={nav}>
     <ul className={leftNav}>
         <li className={navLinkItem}><Link to="/">Home</Link></li>
@@ -14,6 +15,7 @@ const Nav = () => {
         <li className={navLinkItem}><Link to="/contact">Contact us</Link></li>                
     </ul>
 </nav>
+</div>
     )
 }
 export default Nav;
