@@ -4,8 +4,10 @@ import Home from "../components/home";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Index() {
-  return <div>    
+  return <>    
     <div> <Nav /> </div>
-    <div> <Home /> </div>
-  </div>
+    
+    <div className="container-fluid"> <Home /> </div>
+  
+  </>
 }

@@ -6,6 +6,7 @@ export default function Work() {
   return (
     <>
     <div> <Nav /> </div>
+    <div className="container-fluid">
     <div className="outer">      
       <div className="txt">        
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -21,6 +22,7 @@ export default function Work() {
       <div className="img">
         <img src={Lath} width={1000} height={800} alt="Lath" />
       </div>
+    </div>
     </div>
     </>
   )
