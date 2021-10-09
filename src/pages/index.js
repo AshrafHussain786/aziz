@@ -5,9 +5,9 @@ import Home from "../components/home";
 
 export default function Index() {
   return <>    
-    <div> <Nav /> </div>
+    <div><Nav /></div>
     
-    <div className="container-sm|md|lg|xl"> <Home /> </div>
+    <div><Home /></div>
   
   </>
 }

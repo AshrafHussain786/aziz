@@ -19,9 +19,7 @@ export default function Work() {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.        
       </div>
-      <div className="img">
-        <img src={Lath} width={1000} height={800} alt="Lath" />
-      </div>
+        <img src={Lath} width="1000" height="900" alt="Lath" />
     </div>
     </div>
     </>
