@@ -3,9 +3,9 @@ import Lath from "../images/Lath3.jpeg"
 
 export default function Home() {
   return (
-    <div className="outer">
-        <img src={Lath} width="1000" height="900" alt="Lath" />      
-      <div className="txt">        
+    <div className="outer">      
+        <img src={Lath} className="col-8 col-s-8" alt="Lath" />      
+      <div className="txt col-4 col-s-4">        
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and

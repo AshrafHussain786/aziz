@@ -6,9 +6,9 @@ export default function Work() {
   return (
     <>
     <div> <Nav /> </div>
-    <div className="container-sm|md|lg|xl">
+    <div className="container">
     <div className="outer">      
-      <div className="txt">        
+      <div className="txt col-4 col-s-4">        
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -19,7 +19,7 @@ export default function Work() {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.        
       </div>
-        <img src={Lath} width="1000" height="900" alt="Lath" />
+        <img src={Lath} className="col-8 col-s-8" alt="Lath" />
     </div>
     </div>
     </>

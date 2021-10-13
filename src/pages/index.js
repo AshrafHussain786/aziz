@@ -5,9 +5,7 @@ import Home from "../components/home";
 
 export default function Index() {
   return <>    
-    <div><Nav /></div>
-    
-    <div><Home /></div>
-  
+    <div><Nav /></div>    
+    <div><Home /></div>  
   </>
 }

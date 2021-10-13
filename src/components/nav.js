@@ -1,19 +1,37 @@
-import * as React from "react";
-import { Link } from "gatsby";
-// import { nav, leftNav, rightNav, navLinkItem } from "./styles/nav.module.css"
+import * as React from "react"
+import { Link } from "gatsby"
 
 const Nav = () => {
-    return (
-        <div>
-<nav className="navbar">
-    <ul className="nav navbar-nav">
-        <li className="nav-link"><Link to="/">Home</Link></li>          
-        <li className="nav-link"><Link to="/work">Work</Link></li>        
-        <li className="nav-link"><Link to="/contract">Contractors</Link></li>     
-        <li className="nav-link"><Link to="/contact">Contact us</Link></li>                
-    </ul>
-</nav>
-</div>
-    )
+  return (
+    <nav className="nav navbar navbar-expand-sm bg-light navbar-light">
+      <div className="container-fluid">      
+    <div className="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link to="/" className="nav-link">
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/work" className="nav-link">
+              Work
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/contract" className="nav-link">
+              Contractors
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/contact" className="nav-link">
+              Contact us
+            </Link>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+  )
 }
-export default Nav;
+
+export default Nav
